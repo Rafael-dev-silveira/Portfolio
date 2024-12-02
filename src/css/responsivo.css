@@ -1,0 +1,59 @@
+@media (max-width: 720px) {
+    .img-sidebar img {
+        width: 120px;
+    }
+
+    .descricao span {
+        font-size: 16px;
+    }
+
+    .lista {
+        max-width: auto;
+        font-size: 15px;
+    }
+
+    .descricao .paragrafo {
+        max-width: auto;
+        font-size: 12px;
+
+    }
+
+}
+
+@media (max-width: 545px) {
+    .img-sidebar img {
+        width: 110px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .sidebar-pos .menu {
+        display: none;
+    }
+
+    .content .descricao h2 {
+        font-size: 35px;
+
+    }
+
+    .descricao span {
+        font-size: 16px;
+    }
+
+    .lista {
+        max-width: auto;
+        font-size: 12px;
+    }
+
+    .descricao .paragrafo {
+        max-width: auto;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    .img-sidebar img {
+        width: 95px;
+        border: 3px solid #62318e;
+    }
+}
